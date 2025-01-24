@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.google.com/share?selection.family=Lora:ital,wght@0,400..700;1,400..700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pomodoro-container">
+        <h1>Pomodoro Timer</h1>
+        
+        <!-- Personalización de intervalos -->
+        <label for="workTimeInput">Tiempo de Trabajo (minutos):</label>
+        <input id="workTimeInput" type="number" value="25" min="1" max="60">
+        
+        <label for="breakTimeInput">Tiempo de Descanso (minutos):</label>
+        <input id="breakTimeInput" type="number" value="5" min="1" max="60">
+        <button id="apply-settings">Ok</button>
+        <!-- Temporizador -->
+        <div id="timer">00:00</div>
+        <div id="status">Tiempo de: </div>
+        
+        <!-- Barra de progreso -->
+        <div id="progress-bar">
+            <div id="progress"></div>
+        </div>
+        
+        <!-- Botones de control -->
+        <button id="start">Iniciar</button>
+        <button id="pause">Pausar</button>
+        <button id="reset">Reiniciar</button>
+        
+        <!-- Cambio de tema -->
+        <button id="theme-toggle">Cambiar Tema</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
