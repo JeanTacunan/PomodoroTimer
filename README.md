@@ -190,3 +190,5 @@ Desarrollar un temporizador Pomodoro que permita al usuario gestionar intervalos
 - **Funcionalidad**: El temporizador debe alternar entre trabajo y descanso correctamente.
 - **Interfaz**: La interfaz debe ser clara, atractiva y fácil de usar.
 - **Código**: El código debe estar bien estructurado y comentado.
+
+Comentario de prueba con jenkins
